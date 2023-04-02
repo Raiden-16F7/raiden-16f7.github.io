@@ -9,7 +9,7 @@
 
 <br />
 
-### Demo Screeshots
+### Screeshot
 
 ![Richard Ryan Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
@@ -17,7 +17,7 @@
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/richard-ryan.git
+git clone https://github.com/Programmer4045/Portfolio.git
 ```
 
 ### Contact
