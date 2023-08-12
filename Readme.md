@@ -17,7 +17,7 @@
 Windows:
 
 ```bash
-git clone https://github.com/Raiden-16F7/Portfolio.git
+git clone https://github.com/Programmer4045/Portfolio.git
 ```
 
 ### Contact

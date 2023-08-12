@@ -374,7 +374,7 @@ body.active { overflow: hidden; }
   transition-duration: 0.5s;
 }
 
-.navbar-top .logo .img { width: 130px; }
+.navbar-top .logo .img { width: 60px; }
 
 .nav-close-btn {
   width: 25px;
@@ -476,9 +476,10 @@ body.active { overflow: hidden; }
 }
 
 .hero-banner {
-  max-width: 150px;
+  width: 200px;
+  max-width: 300px;
   margin-inline: auto;
-  margin-block-end: 20px;
+  margin-block-end: 150px;
 }
 
 .hero .wrapper {
@@ -491,7 +492,7 @@ body.active { overflow: hidden; }
 .hero .wrapper .strong {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
   width: 300px;
   font-weight: inherit;
@@ -499,7 +500,7 @@ body.active { overflow: hidden; }
 }
 
 .hero-text {
-  font-size: var(--fs-10);
+  font-size: var(--fs-4);
   font-weight: var(--fw-300);
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -726,7 +727,7 @@ body.active { overflow: hidden; }
   bottom: 10%;
   left: 0;
   z-index: 1;
-  width: 100px;
+  width: 20px;
 }
 
 
@@ -1215,8 +1216,9 @@ body.active { overflow: hidden; }
     position: absolute;
     top: 50%;
     right: 0;
+    width: 300px;
     transform: translateY(-50%);
-    max-width: 200px;
+    max-width: 400px;
     z-index: -1;
   }
 
@@ -1328,9 +1330,10 @@ body.active { overflow: hidden; }
     display: block;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
     width: 200px;
+    height: 286px;
     opacity: 0;
     visibility: hidden;
     transition: var(--transition-1);
