@@ -2,11 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
 
 /**
  * RECOLETA FONT
@@ -70,4 +65,37 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+
+/* --------------------------
+Gohu Nerd Font
+---------------------------*/
+@font-face {
+  font-family: 'Helvetica';
+  src: local('HelveticaNowDisplay-Regular'),
+        url('./helvetica/HelveticaNowDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: local('HelveticaNowDisplay-Medium'),
+        url('./helvetica/HelveticaNowDisplay-Medium.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: local('HelveticaNowDisplay-Bold'),
+        url('./helvetica/HelveticaNowDisplay-Bold.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*-------------------------
+BigBlueTerminal Font
+-------------------------*/
+@font-face {
+  font-family: 'BigBlueTerminal Font';
+  src: url('./BigBlueTerminal/BigBlue\ TerminalPlus\ Nerd\ Font\ Complete.TTF') format('ttf');
 }
