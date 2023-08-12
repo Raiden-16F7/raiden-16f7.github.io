@@ -236,3 +236,21 @@ document.body.addEventListener("mouseout", function () {
 document.body.addEventListener("mouseover", function () {
   cursor.classList.remove("disabled");
 });
+
+
+//Code For Mailing Me
+document.addEventListener("DOMContentLoaded", function () {
+  var sendEmailBtn = document.getElementById("sendEmailBtn");
+
+  sendEmailBtn.addEventListener("click", function () {
+      var recipient = "fahad.rizwan07@gmail.com"; // Replace with your email address
+      var subject = "User Inquiry";
+      var message = "Hello, I have a question for you.";
+
+      var mailtoLink = "mailto:" + recipient +
+                       "?subject=" + encodeURIComponent(subject) +
+                       "&body=" + encodeURIComponent(message);
+
+      window.location.href = mailtoLink;
+  });
+});
