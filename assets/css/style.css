@@ -486,15 +486,17 @@ body.active { overflow: hidden; }
   position: relative;
   text-align: left;
   height: 1.2em;
+  --fs-2:4rem;
   margin-block: 10px 25px;
 }
 
 .hero .wrapper .strong {
   position: absolute;
   top: 0;
-  left: 45%;
+  left: 46%;
   transform: translateX(-50%);
   width: 300px;
+  text-align: center;
   font-weight: inherit;
   display: flex;
 }
@@ -775,7 +777,7 @@ button span:not(hover) {
   bottom: 10%;
   left: 0;
   z-index: 1;
-  width: 20px;
+  width: 100px;
 }
 
 
@@ -927,6 +929,13 @@ button span:not(hover) {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.handleImg{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 50px;
 }
 
 .social-link { font-weight: var(--fw-500); }
@@ -1118,6 +1127,12 @@ button span:not(hover) {
     justify-content: flex-end;
   }
 
+  .handle{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+
 }
 
 
@@ -1256,7 +1271,7 @@ button span:not(hover) {
   .hero-title { text-align: left; }
 
   .hero .wrapper {
-    --fs-2: 8rem;
+    --fs-2: 6rem;
     margin-block: -5px 10px;
   }
 
@@ -1267,6 +1282,7 @@ button span:not(hover) {
     width: 300px;
     transform: translateY(-50%);
     max-width: 400px;
+    width: 250px;
     z-index: -1;
   }
 
@@ -1535,11 +1551,11 @@ button span:not(hover) {
   .hero .container { max-width: 1250px; }
 
   .hero .wrapper {
-    --fs-2: 10rem;
+    --fs-2: 7rem;
     margin-block: -10px 15px;
   }
 
-  .hero .wrapper .strong { left: 40%; }
+  .hero .wrapper .strong { left: 30%; }
 
   .hero-text {
     --fs-10: 2rem;
@@ -1547,7 +1563,10 @@ button span:not(hover) {
     letter-spacing: 8px;
   }
 
-  .hero-banner { max-width: 290px; }
+  .hero-title{
+  margin-left: 50px;}
+
+  .hero-banner { max-width: 290px; margin-right: 40px;}
 
   .hero .shape {
     display: block;
@@ -1663,6 +1682,8 @@ button span:not(hover) {
   }
 
   .footer .btn-icon img { width: 45px; }
+  .handleImg{
+  margin-top: 50px;}
 
 }
 
@@ -1718,13 +1739,14 @@ button span:not(hover) {
 
   .hero .container { max-width: 1500px; }
 
-  .hero-content { margin-inline-end: 400px; }
+  .hero-content { margin-inline-end: 500px; }
+  .hero-title {margin-left: 50px;}
 
-  .hero .wrapper { --fs-2: 13rem; }
+  .hero .wrapper { --fs-2: 11rem; }
 
   .hero-text { --fs-10: 2.4rem; }
 
-  .hero-banner { max-width: max-content; }
+  .hero-banner { max-width: max-content; margin-right: 70px; }
 
 
 
@@ -1769,5 +1791,9 @@ button span:not(hover) {
    */
 
   .footer-top .container { max-width: 1200px; }
+  .handleImg{
+    margin-top: 50px;
+  }
+    
 
 }
