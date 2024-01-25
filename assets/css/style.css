@@ -1001,6 +1001,16 @@ padding-bottom: 50px;
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media screen and (max-width: 768px) { 
+   
+ .wrapper.h2 .strong:nth-child(2) {
+  left: 50%;
+} 
+.wrapper.h2 .strong:nth-child(1) {
+  left: 42%;
+}
+}
+
 /**
  * responsive for large than 575px screen
  */
@@ -1034,8 +1044,6 @@ padding-bottom: 50px;
   }
 
   :is(.header, .gallery, .category, .portfolio) .container { max-width: unset; }
-
-
 
   /**
    * HEADER
@@ -1742,7 +1750,7 @@ padding-bottom: 50px;
   .hero-content { margin-inline-end: 500px; }
   .hero-title {margin-left: 50px;}
 
-  .hero .wrapper { --fs-2: 11rem; }
+  .hero .wrapper { --fs-2: 9rem; }
 
   .hero-text { --fs-10: 2.4rem; }
 
@@ -1794,6 +1802,6 @@ padding-bottom: 50px;
   .handleImg{
     margin-top: 50px;
   }
-    
+     
 
 }
